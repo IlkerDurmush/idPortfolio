@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const TypeWriter = () => {
   return (
-    <div className="text-center mt-10">
+    <div className="text-center mt-7">
       <h1 className="text-4xl md:text-6xl font-extrabold">
         I'm a{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">

@@ -12,12 +12,24 @@ const page = () => {
             </h1>
             <p className="text-lg text-gray-300 mb-6">
               Hi, I'm{" "}
-              <span className="font-semibold text-white"> Ilker Durmush</span>,
-              a passionate web developer with a love for creating interactive
-              and visually stunning websites. I specialize in both front-end and
+              <span className="font-semibold text-white">Ilker Durmush</span>, a
+              passionate web developer with a love for creating interactive and
+              visually stunning websites. I specialize in both front-end and
               back-end development, with a strong focus on
               <span className="text-white font-semibold"> JavaScript </span> and
               <span className="text-white font-semibold"> TypeScript</span>.
+            </p>
+            <p className="text-lg text-gray-300 mb-6">
+              I graduated from{" "}
+              <span className="text-white font-semibold">PGEE Plovdiv</span> as
+              a Computer Developer, where I built a solid foundation in software
+              engineering. Currently, I’m continuing my journey by studying{" "}
+              <span className="text-white font-semibold">Computer Science</span>{" "}
+              at{" "}
+              <span className="text-white font-semibold">
+                Sofia Technical University
+              </span>
+              .
             </p>
             <p className="text-lg text-gray-300 mb-6">
               I have a deep interest in UI/UX design and enjoy building
