@@ -4,11 +4,11 @@ import Project from "@/app/components/Project";
 const ProjectsPage = () => {
   const projects = [
     {
-      image: "/question.jpg",
-      title: "Project One",
+      image: "/project1.png",
+      title: "Fashion Orbit",
       description:
-        "A description of Project One. It’s a web app that solves XYZ.",
-      link: "https://projectone.com",
+        "FashionOrbit is a modern eCommerce web application built with Next.js and MongoDB, developed as my high school diploma project. The platform allows users to browse, search, and purchase fashion products through a clean and responsive interface. FashionOrbit includes features like dynamic product listings, secure user authentication, and a streamlined shopping cart experience. This project showcases my skills in full-stack web development, particularly in building robust applications using the MERN stack (MongoDB, Express, React/Next.js, Node.js).",
+      link: "https://github.com/IlkerDurmush/FashionOrbit.git",
     },
     {
       image: "/question.jpg",

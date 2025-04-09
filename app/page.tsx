@@ -2,23 +2,21 @@ import TypeWriter from "./components/TypeWriter";
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen">
+    <div className="min-h-screen">
       <main className="min-h-screen flex items-center justify-center">
-        <div className="flex items-center p-8">
+        <div className="flex flex-col md:flex-row items-center md:items-start p-8">
           {/* Left Column - Profile Image */}
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center w-full md:min-w-[600px]">
             <img
-              src="/profile.png" // Replace with your actual image path
+              src="/profile.png"
               alt="Profile"
-              className="rounded-full w-fit h-fit" // Large profile image (w-2xl)
+              className="rounded-full w-fit h-fit"
             />
           </div>
 
           {/* Right Column - TypeWriter and Text */}
-          <div className="text-center space-y-4 ml-24 min-w-[600px]">
-            {" "}
-            {/* Set a fixed width here */}
-            <h1 className="text-4xl font-bold mb-4 text-white">
+          <div className=" md:text-left space-y-4 pt-14  mt-8 md:mt-0 md:ml-24 w-full md:min-w-[600px]">
+            <h1 className="text-4xl text-center font-bold mb-4 text-white">
               Hello, I am{" "}
               <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
                 Ilker
@@ -26,9 +24,15 @@ const Home: React.FC = () => {
               and
             </h1>
             <TypeWriter />
-            <p className="text-lg text-gray-400 mt-4">
+            <p className="text-center text-lg text-gray-400 mt-4">
               This is my portfolio in which you can learn more about me.
             </p>
+            <a
+              href=""
+              className="w-fit mx-auto block bg-cyan-950 p-4 rounded-xl border-2 border-cyan-700 font-bold"
+            >
+              Download my CV
+            </a>
           </div>
         </div>
       </main>
