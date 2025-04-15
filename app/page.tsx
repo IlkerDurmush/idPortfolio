@@ -28,7 +28,8 @@ const Home: React.FC = () => {
               This is my portfolio in which you can learn more about me.
             </p>
             <a
-              href=""
+              download
+              href="/cv.png"
               className="w-fit mx-auto block bg-cyan-950 p-4 rounded-xl border-2 border-cyan-700 font-bold"
             >
               Download my CV

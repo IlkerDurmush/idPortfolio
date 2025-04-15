@@ -10,20 +10,6 @@ const ProjectsPage = () => {
         "FashionOrbit is a modern eCommerce web application built with Next.js and MongoDB, developed as my high school diploma project. The platform allows users to browse, search, and purchase fashion products through a clean and responsive interface. FashionOrbit includes features like dynamic product listings, secure user authentication, and a streamlined shopping cart experience. This project showcases my skills in full-stack web development, particularly in building robust applications using the MERN stack (MongoDB, Express, React/Next.js, Node.js).",
       link: "https://github.com/IlkerDurmush/FashionOrbit.git",
     },
-    {
-      image: "/question.jpg",
-      title: "Project Two",
-      description:
-        "A description of Project Two. It’s a mobile app that does ABC.",
-      link: "https://projecttwo.com",
-    },
-    {
-      image: "/question.jpg",
-      title: "Project Three",
-      description:
-        "A description of Project Three. A tool that helps with DEF.",
-      link: "https://projectthree.com",
-    },
   ];
 
   return (
