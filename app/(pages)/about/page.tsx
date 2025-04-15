@@ -11,7 +11,7 @@ const page = () => {
               About Me
             </h1>
             <p className="text-lg text-gray-300 mb-6">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="font-semibold text-white">Ilker Durmush</span>, a
               passionate web developer with a love for creating interactive and
               visually stunning websites. I specialize in both front-end and
@@ -23,7 +23,7 @@ const page = () => {
               I graduated from{" "}
               <span className="text-white font-semibold">PGEE Plovdiv</span> as
               a Computer Developer, where I built a solid foundation in software
-              engineering. Currently, I’m continuing my journey by studying{" "}
+              engineering. Currently, I&apos;m continuing my journey by studying{" "}
               <span className="text-white font-semibold">Computer Science</span>{" "}
               at{" "}
               <span className="text-white font-semibold">
@@ -41,9 +41,9 @@ const page = () => {
               exploring new technologies in web development.
             </p>
             <p className="text-lg text-gray-300">
-              When I'm not coding, I love learning new things, reading tech
+              When I&apos;m not coding, I love learning new things, reading tech
               blogs, and working on personal projects. Feel free to check out my
-              work on the Projects page and get in touch if you'd like to
+              work on the Projects page and get in touch if you&apos;d like to
               collaborate!
             </p>
           </div>
