@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface ProjectProps {
   image: string;
@@ -17,9 +18,11 @@ const Project: React.FC<ProjectProps> = ({
     <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 bg-gray-800 p-6 rounded-lg shadow-lg">
       {/* Image */}
       <div className="w-full md:w-1/2">
-        <img
+        <Image
           src={image}
           alt={title}
+          width={600}
+          height={400}
           className="w-full h-auto rounded-lg object-cover"
         />
       </div>
